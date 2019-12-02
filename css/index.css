@@ -1,0 +1,507 @@
+.nav{
+}
+/*.................titleBar..................*/
+.titleBar {
+    height: 45px;
+    background: #242424;
+    color: #7e7e7e;
+}
+
+.titleText > ul {
+    height: 45px;
+    position: relative;
+}
+
+.logo > a {
+    display: block;
+    width: 156px;
+    height: 20px;
+    background: url("../img/Logo.png");
+    background-size: 100% 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.titleBar-icon {
+    font-family: fooseshoes;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.loginAregist {
+    width: 200px;
+    height: 45px;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    line-height: 45px;
+}
+
+.loginAregist > .left {
+    width: 60px;
+}
+
+.loginAregist > .right {
+    width: 140px;
+    height: 45px;
+    border-left: 1px solid #7e7e7e;
+    border-right: 1px solid #7e7e7e;
+    font-size: 11px;
+}
+
+.loginAregist > .right > a {
+    color: #7e7e7e;
+}
+
+/*.................titleBar..................*/
+/*.................navBarText..................*/
+.navBar{
+    background: white;
+}
+.navBarText {
+    height: 60px;
+    position: relative;
+}
+
+.navBarText > ul {
+    height: 60px;
+    position: absolute;
+    display: flex;
+    box-sizing: border-box;
+}
+.navBarText > .leftUl {
+    left: 0;
+}
+.leftUl > li {
+    padding: 0 23px;
+    border-left: 1px solid #eee;
+}
+.leftUl > li:last-of-type{
+    border-right: 1px solid #eee;
+}
+.leftUl > li>a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 60px;
+    color: black;
+}
+.navBarText > .rightUl {
+    right: 0;
+}
+.rightUl > li {
+    padding: 0 23px;
+    border-left: 1px solid #eee;
+}
+.rightUl > li:last-of-type{
+    border-right: 1px solid #eee;
+}
+.rightUl > li>a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: black;
+    position: relative;
+}
+.rightUl > li>a>div{
+    padding: 22px 0;
+
+}
+.rightUl > li span{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    font-size: 12px;
+    line-height: 20px;
+}
+.rightUl > li:first-child span{
+    background: #adadad;
+}
+.rightUl > li:last-child span{
+    background: #57c5a0;
+}
+.navBar-icon{
+    font-family: fooseshoes;
+    font-style: normal;
+}
+/*.................navBarText..................*/
+/*.................banner..................*/
+
+/*.................banner..................*/
+/*.................brand..................*/
+.brand{
+    height: 230px;
+    background: #242424;
+    position: relative;
+}
+.brand>.centerWidth{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.brand>.centerWidth>div{
+    position: relative;
+}
+
+.brand>.centerWidth>div:before{
+    position: absolute;
+    width: 180px;
+    height: 60px;
+    background: rgba(36,36,36,0.8);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-family: Aller-Light;
+    font-size: 20px;
+    line-height: 60px;
+    color: #ffffff;
+}
+.brand>.centerWidth>div:nth-child(1):before{
+    content: "ON SALE";
+}
+.brand>.centerWidth>div:nth-child(2):before{
+    content: "SPECIAL OFFERS";
+}
+.brand>.centerWidth>div:nth-child(3):before{
+    content: "MUST HAVE";
+}
+/*.................brand..................*/
+/*.................newProduct..................*/
+.newProduct{
+    height: 950px;
+    background: #ebe7df;
+    padding: 20px 0;
+}
+.new-arrivals {
+    width: 940px;
+    height: 328px;
+}
+.new-arrivals-on-foose-shoes{
+    font-family: Aller-Light;
+    font-size: 25px;
+    color: #242424;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.new-arrivals-on-foose-shoes>button{
+    width: 100px;
+    height: 30px;
+    background-color: #ebe7df;
+    border: solid 1px #bcb5a7;
+    font-family: Aller-Bold;
+    font-size: 14px;
+    line-height: 30px;
+    color: #bcb5a7;
+}
+.productsList>ul{
+    display: flex;
+    justify-content: space-between;
+}
+.productsList>ul>li{
+    width: 300px;
+    height: 270px;
+    position: relative;
+}
+.productsList>ul>li:before{
+    content: "Know More";
+    position: absolute;
+    width: 70px;
+    height: 20px;
+    background: rgba(36,36,36,0.5);
+    top: 0;
+    left: 15px;
+    font-size: 12px;
+    color: white;
+    text-align: center;
+}
+.onSell:after{
+    content: "ON SALE";
+    position: absolute;
+    width: 68px;
+    height: 67px;
+    background: #242424;
+    top: 0;
+    right: 5px;
+    line-height: 67px;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+}
+.OutOfStock:after{
+    content: "OUT OF STOCK";
+    position: absolute;
+    width: 68px;
+    height: 33px;
+    background: #f27e4b;
+    top: 0;
+    right: 5px;
+    font-size: 13px;
+    color: white;
+    padding: 17px 0;
+    text-align: center;
+}
+.productsList>ul>li>img{
+    display: block;
+}
+.line{
+    width: 100%;
+    height: 1px;
+    background: #ccc;
+}
+.goodsSell{
+    height: 48px;
+    background-color: white;
+}
+.goodsSell>.sellNum{
+    width: 68px;
+    height: 68px;
+    background: #57c5a0;
+    position: absolute;
+    bottom: 0;
+    left: 12px;
+    text-align: center;
+    line-height: 68px;
+    color: white;
+}
+.even-odd {
+    width: 100%;
+    height: 100%;
+    font-family: Aller;
+    font-size: 18px;
+    line-height: 50px;
+    letter-spacing: 1px;
+    color: #242424;
+    text-align: center;
+    position: relative;
+}
+.even-odd>*{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+.even-odd>.firstEven{
+
+}
+.even-odd>.secondEven{
+    display: none;
+}
+.best-seller {
+    width: 940px;
+    height: 334px;
+    margin: 20px 0;
+}
+.addon {
+    width: 940px;
+    height: 160px;
+    padding: 26px 0;
+}
+.addonUl{
+    display: flex;
+    justify-content: space-between;
+}
+.addonUl>li{
+    background-color: #dfdbd4;
+    width: 180px;
+    height: 185px;
+    padding: 0 15px;
+}
+.addonUl>li>p:nth-child(1){
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 14px;
+    color: #242424;
+    font-weight: bold;
+}
+.addonUl>li>p:nth-child(2){
+    padding-bottom: 16px;
+    font-size: 12px;
+    color: #242424;
+}
+.addonUl>li:nth-child(3){
+    width: 460px;
+    height: 185px;
+}
+.blogList{
+    display: flex;
+    justify-content: space-between;
+}
+.blogList>div:first-of-type{
+    width: 36px;
+    height: 36px;
+    background: #57c5a0;
+    margin-bottom: 14px;
+    font-size: 13px;
+    color: white;
+    text-align: center;
+}
+.blogList>div:last-of-type{
+    width: 415px;
+    height: 30px;
+}
+.blogList>div:last-of-type>p{
+    font-size: 12px;
+}
+/*.................newProduct..................*/
+/*.................widget..................*/
+.widget{
+    height: 245px;
+    background: #242424;
+    position: relative;
+}
+.widget>.centerWidth{
+    height: 164px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.widget ul{
+    display: flex;
+    justify-content: space-between;
+}
+.widget ul>li{
+    width: 273px;
+    height: 164px;
+}
+.widget ul>li>p:first-of-type{
+    margin-bottom: 23px;
+    font-family: Aller;
+    font-size: 14px;
+    line-height: 18px;
+    color: #7d7d7d;
+}
+.widget .textWidget>p:last-of-type{
+    font-family: Aller-Italic;
+    font-size: 12px;
+    line-height: 18px;
+    color: #a4a4a4;
+}
+.twitterWidget>div{
+    height: 52px;
+    font-size: 12px;
+}
+.twitterWidget>div>p{
+    color: #a4a4a4;
+    margin: 10px 0;
+}
+.twitterWidget>div span{
+    color: #57c5a0;
+    font-style: italic;
+}
+.flickrWidget>div{
+    display: flex;
+
+}
+/*.................widget..................*/
+/*.................share..................*/
+.share{
+    height: 106px;
+    background: #242424;
+    position: relative;
+}
+.share>.centerWidth{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.inputDiv{
+    width: 252px;
+    height: 36px;
+    background: darkblue;
+    display: flex;
+}
+.inputDiv>input,button{
+    border: none;
+    outline: none;
+    font-size: 12px;
+}
+.inputDiv>input{
+    width: 212px;
+    height: 36px;
+    background: #2e2e2e;
+    text-indent: 14px;
+    font-family: Aller-Italic;
+}
+.inputDiv>button{
+    width: 40px;
+    height: 36px;
+    text-align: center;
+    line-height: 40px;
+    background: #7d7d7d;
+    color: #2e2e2e;
+    font-size: 15px;
+}
+.shareDiv{
+    width: 196px;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+}
+.shareDiv>i{
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    background: #2e2e2e;
+    text-align: center;
+    line-height: 36px;
+}
+.shareIcon{
+    font-family: fooseshoes;
+    font-style: normal;
+    font-size: 22px;
+}
+.shareIcon>a{
+    color: #7d7d7d;
+}
+/*.................share..................*/
+/*.................footer..................*/
+.footer{
+    height: 90px;
+    background: #2e2e2e;
+    position: relative;
+}
+.footer ul{
+    width: 960px;
+    height: 50px;
+    display: flex;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.footer ul>li{
+    position: absolute;
+    color: white;
+    font-size: 12px;
+}
+.footer ul>li>p{
+    font-size: 12px;
+    color: white;
+}
+.footer ul>li>a{
+    font-size: 12px;
+    color: white;
+}
+.footer ul>li:first-of-type{
+    width: 180px;
+    padding: 9px 0;
+}
+.footer ul>li:last-of-type{
+    width: 380px;
+    right: 0;
+    line-height: 50px;
+}
+/*.................footer..................*/
